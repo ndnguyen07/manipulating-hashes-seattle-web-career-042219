@@ -14,7 +14,8 @@ def first_challenge
   }
 
     hash.each do (names, icecream)
-      icecream(:favorite_icecream_flavors)
+      icecream(:favorite_icecream_flavors).delete_at ["strawberry"]
+    end
 
   #remember to return your newly altered contacts hash!
   contacts
