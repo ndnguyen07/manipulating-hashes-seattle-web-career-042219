@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-    hash.each do |names, icecream|
+    contacts.each do |names, icecream|
       icecream(:favorite_icecream_flavors).delete_at ["strawberry"]
     end
 
