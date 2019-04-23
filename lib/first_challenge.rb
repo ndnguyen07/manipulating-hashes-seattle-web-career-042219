@@ -14,7 +14,7 @@ def first_challenge
   }
 
     contacts.each do |names, icecream|
-      icecream[:favorite_icecream_flavors].delete_at ["strawberry"]
+      icecream[:favorite_icecream_flavors].delete_at["strawberry"]
       
     end
 
