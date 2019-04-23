@@ -16,7 +16,5 @@ def first_challenge
     contacts.each do |names, icecream|
       icecream[:favorite_icecream_flavors].shift["strawberry"]
     end
-
-  
 end
 
